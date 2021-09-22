@@ -1,0 +1,27 @@
+{
+  "name": "Entia Dostop Bridge",
+  "version": "1.1.1",
+  "slug": "entia",
+  "description": "Entia Dostop Bridge",
+  "arch": [
+    "armhf",
+    "armv7"
+  ],
+  "host_network": true,
+  "startup": "application",
+  "boot": "auto",
+  "options": {
+    "entia_username": null,
+    "entia_password": null,
+    "mqtt_username": null,
+    "mqtt_password": null,
+    "mqtt_hostname": null
+  },
+  "schema": {
+    "entia_username": "str",
+    "entia_password": "str",
+    "mqtt_username": "str",
+    "mqtt_password": "str",
+    "mqtt_hostname": "str"
+  }
+}
